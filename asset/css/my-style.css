@@ -1,0 +1,22 @@
+.header__menu-language{
+    width: 10%;
+}
+.header__menu-language .list-language{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__menu-list{
+    width: 90% !important;
+}
+@media (max-width: 767px){
+    .header__menu-language{
+        width: 27%;
+    }
+    .header__menu-language .list-language{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header__menu-list{
+        width: 73% !important;
+    }
+}
